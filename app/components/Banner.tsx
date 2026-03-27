@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 export default function Banner(): React.JSX.Element {
@@ -46,7 +47,7 @@ export default function Banner(): React.JSX.Element {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center pt-20 px-6"
+      className="min-h-screen flex items-center justify-center pt-40 px-6"
     >
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col lg:flex-row items-center ">
@@ -126,7 +127,7 @@ export default function Banner(): React.JSX.Element {
                 A blockchain data analyst and researcher who{" "}
               </p>
               <h1 className="text-3xl tracking-tight lg:text-4xl font-semibold text-white leading-tight">
-                specialises in unveils hidden patterns
+                find patterns and tell their
                 <br /> in data{" "}
                 <span className="relative inline-block">
                   <Image
@@ -137,14 +138,15 @@ export default function Banner(): React.JSX.Element {
                     className="absolute mt-2"
                   />
                   <span className="bg-gradient-to-r from-violet-600 via-violet-400 to-violet-600 bg-clip-text text-transparent">
-                    and crafting compelling narratives
+                    stories
                   </span>
                 </span>
                 ...
               </h1>
               <p className="text-md text-white/80">
-                Because if insights don&apos;t spark action and stories
-                don&apos;t engage, what else can fuel growth in Web3?
+                {/* Because if insights don&apos;t spark action and stories
+                don&apos;t engage, what else can fuel growth in Web3? */}
+                So insights lead to action.
               </p>
             </div>
           </div>
@@ -154,20 +156,11 @@ export default function Banner(): React.JSX.Element {
             I&apos;m a {displayedText}
             <span className="animate-pulse">|</span>
           </p>
-          <p className="text-lg lg:text-xl text-white/90 tracking-wide flex flex-wrap items-center justify-center lg:justify-start gap-2">
-            <span>Currently, I&apos;m a Software Engineer at</span>
-            <span className="flex items-center gap-2">
-              <Image
-                src="/assets/webhr.webp"
-                alt="WebHR"
-                width={20}
-                height={20}
-                className="w-5 h-5"
-                style={{ width: "auto", height: "auto" }}
-              />
-              <span className="text-blue-400 font-semibold">WebHR,</span>
-            </span>
-          </p>
+          <Link href="#contact">
+          <button className="flex items-center justify-around mt-7 bg-violet-600 hover:bg-violet-400 min-w-30 h-10 rounded-full">
+            Contact Me
+          </button>
+          </Link>
           <p className="text-lg text-white/80 max-w-2xl mt-15 mx-auto lg:mx-0">
             I am a dedicated Blockchain Data analyst and Researcher with a
             Bachelor of Technology Degree in Statistics and over 3 years of

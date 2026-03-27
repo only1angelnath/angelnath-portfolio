@@ -11,18 +11,25 @@ interface Project {
 const featuredProjects: Project[] = [
   {
     id: 1,
-    title: "NeuraWeb – Futuristic AI Website Landing Design",
-    description: "A sleek, dark-themed AI-powered landing page concept built in Figma. Designed for modern startups and futuristic digital products, it features glowing neon visuals, immersive UI, and a dynamic tone. The design encapsulates the cutting-edge possibilities of AI and tech, offering a glimpse into the future of online experiences for tech-forward companies.",
-    link: "https://www.figma.com/community/file/1441377868897233703/ai-website-landing-design",
-    image: "/projects/project-1.png",
+    title: "State of Privacy Protocol Tokens Research Report",
+    description: "Detailed research report on privacy tokens on Base, exploring holder analytics, volume trends, wealth metrics, and segmentation models demonstrating how they achieved 249.6% returns in 2025, outperforming AI tokens and highlighting untapped research opportunities in blockchain analytics.",
+    link: "https://only1angelnath.substack.com/p/the-state-of-privacy-protocol-tokens",
+    image: "/projects/State-of-privacy.png",
   },
   {
     id: 2,
-    title: "Apple Vision Pro – HR Software Design",
-    description: "A futuristic HR software concept designed for Apple Vision Pro, built in Figma to reimagine attendance, leave tracking, and employee experience - all in one immersive interface.",
-   link: "https://www.figma.com/community/file/1371824014208363481/apple-vision-pro-hr-software-design",
-    image: "/projects/project-2.png",
+    title: "3,549 OGNFT Holders Made $1.2M Profit in ZAMA Community Sale",
+    description: "How ZAMA early believers averaged 5.3X returns while turning $954K into $1.2M — a data deep-dive into the first community sale in 2026 where everyone won.",
+   link: "https://only1angelnath.substack.com/p/3549-ognft-holders-made-12m-profit",
+    image: "/projects/Zama.png",
   },
+  {
+    id: 3,
+    title: "Veil Cash Is Profitable — But Can It Scale?",
+    description: "Veil Cash, a zk-privacy protocol on Base blockchain, is profitable, early, lean, and efficient.As of October 31, 2025, it has generated $2,007.8 USD in revenue from deposit fees, spent just $74.3 USD on validator gas, and recorded a net profit of $1,993.4 USD — a 96.3% margin.",
+   link: "https://only1angelnath.substack.com/p/veil-cash-is-profitable-but-can-it",
+    image: "/projects/Veil.png",
+  }
 ];
 
 export default function Projects(): React.JSX.Element {

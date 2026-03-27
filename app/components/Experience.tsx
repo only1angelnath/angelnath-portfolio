@@ -6,32 +6,41 @@ interface ExperienceCard {
   title: string;
   description: string;
   icon: string;
+  link: string;
 }
 
 const experienceCards: ExperienceCard[] = [
   {
     id: 1,
-    title: "WebHR - HR Management App",
-    description: "WebHR automates all of your company's HR processes such as Recruitment, Onboarding, Payroll, Time & Attendance, Leaves & PTO, Performance, and much more.",
+    title: "State of Privacy Tokens on Base - Blockchain Research Dashboard",
+    description:
+      "In-depth research into privacy protocol tokens on the Base blockchain, revealing market cap trends, performance metrics, holder behaviors, volume distributions, and wealth concentration providing strategic insights for data-driven decisions across the ecosystem",
     icon: "/cards/card-1.png",
+    link: "https://dune.com/angelnath/state-of-privacy-token-on-base-blockchain",
   },
   {
     id: 2,
-    title: "WebHR Kiosk - Time Clock Kiosk",
-    description: "WebHR Kiosk is a time clock kiosk that allows you to clock in and out of your work. It is a simple and easy to use app that allows you to clock in and out of your work.",
+    title: "Profitability Analysis of Veil Cash - zk-Privacy Protocol Research",
+    description:
+      "Research analysis of Veil Cash on Base, detailing revenue streams, net profits, peak TVL and user engagement patterns to inform broader blockchain adoption strategies.",
     icon: "/cards/card-2.png",
+    link: "https://dune.com/angelnath/veil-cash-protocol-on-base",
   },
   {
     id: 3,
-    title: "Somezing - AI-Powered Agents",
-    description: "Somezing is a AI-Powered Agents to Automate Your Workflows. It is a simple and easy to use app that allows you to automate your workflows.",
+    title: "Base Network User Activity & Behavior Research",
+    description:
+      "Comprehensive research into user activity on the Base network, mapping daily engagements, behavioral trends, and on-chain interactions to forecast growth and optimize data strategies in decentralized systems.",
     icon: "/cards/card-3.png",
+    link: "https://dune.com/angelnath/base-network-user-activity-behavior-insights",
   },
   {
     id: 4,
-    title: "FileIT - File Sharing App",
-    description: "FileIT is a file sharing app that allows you to share files with your friends and family. It is a simple and easy to use app that allows you to share files with your friends and family.",
+    title: "30 Days Ethereum Network Activity Research Dashboard",
+    description:
+      "30-day research overview of Ethereum network dynamics, analyzing transaction volumes, user engagements, and performance metrics to extract predictive insights for blockchain researchers and stakeholders.",
     icon: "/cards/card-4.png",
+    link: "https://dune.com/angelnath/30-days-ethereum-network-activity-dashboard",
   },
 ];
 
@@ -58,22 +67,19 @@ export default function Experience(): React.JSX.Element {
                 />
               </div>
               <div>
-              <h3 className="text-xl font-semibold text-white mb-2">
-                {card.title}
-              </h3>
-              <p className="text-white/70 text-sm mb-4">
-                {card.description}
-              </p>
-              <Link
-                href="https://ibiimemon.com/lab"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-purple-400 hover:text-purple-300 font-medium text-sm transition-colors inline-block"
-              >
-                LEARN MORE →
-              </Link>
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  {card.title}
+                </h3>
+                <p className="text-white/70 text-sm mb-4">{card.description}</p>
+                <Link
+                  href={card.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple-400 hover:text-purple-300 font-medium text-sm transition-colors inline-block"
+                >
+                  LEARN MORE →
+                </Link>
               </div>
-
             </div>
           ))}
         </div>
@@ -81,4 +87,3 @@ export default function Experience(): React.JSX.Element {
     </section>
   );
 }
-
