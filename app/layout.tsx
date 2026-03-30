@@ -32,8 +32,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ibrahim Memon - Blockchain data analyst and researcher",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR.",
+    title: "Adediran Nathaniel - Blockchain data analyst and researcher",
+    description: "I am a dedicated Blockchain Data analyst and Researcher with a Bachelor of Technology Degree in Statistics and over 3 years of experience in Web3.",
   },
   robots: {
     index: true,
