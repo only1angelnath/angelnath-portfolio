@@ -1,48 +1,83 @@
-# Personal Developer Portfolio 🚀
+# 🚀 Blockchain Data Analyst Portfolio
 
-[![Site preview](/public/assets/thumbnail.png)](https://figma-portfolio-ten.vercel.app/)
+[![Site preview](/public/assets/thumbnail.png)](https://angelnath-portfolio.vercel.app/)
 
-Welcome to my developer portfolio! This project showcases my skills, projects, and experience as a Software Engineer and UI/UX Designer. Built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com). It not only provides a visually appealing representation of my work but also ensures optimal performance. View the [live site](https://figma-portfolio-ten.vercel.app/).
 
-# Features 🎉
+A modern, responsive portfolio built with React and Tailwind CSS, showcasing my work, skills, and experience as a Blockchain Data Analyst and Researcher.
 
-The whole [portfolio](https://figma-portfolio-ten.vercel.app/) is a React-based single page app built with Next.js in TypeScript, using only statically generated pages.
+This project is an improved and customized version of an existing template, enhanced with better structure, content, and personal branding.
 
-- **Modern Design**: Beautiful, dark-themed UI designed in Figma with purple gradient accents
-- **Animated Typing Effect**: Dynamic text animation in the hero section that cycles through roles
-- **Responsive Layout**: Fully responsive design that works seamlessly on all devices
-- **Performance Optimized**: Built with Next.js 16 for optimal performance and SEO
-- **Project Showcase**: Featured projects section with detailed descriptions and links
-- **Smooth Animations**: Engaging user experience with smooth transitions and effects
-- **Analytics Integration**: Vercel Analytics for tracking website performance
 
-# Fonts ✍🏻
+# 👤 About Me
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load [Poppins](https://fonts.google.com/specimen/Poppins), a custom Google Font with multiple weights (300-900).
+I am Adediran Nathaniel, a dedicated Blockchain Data Analyst and Researcher with a Bachelor of Technology degree in Statistics and over 3 years of experience in Web3.
 
-# Project images 🖼️
+I specialize in uncovering actionable insights from on-chain data to drive innovation and strategic decision-making. By combining analytical thinking with creative storytelling, I transform complex blockchain data into clear, impactful narratives that empower teams to navigate decentralized ecosystems with precision and foresight.
 
-All project images live under `public/projects` and are referenced in the `Projects.tsx` component. The assets folder contains all icons, images, and other media files used throughout the portfolio.
+I thrive in collaborative environments where data-driven research unlocks new opportunities and turns challenges into breakthroughs.
 
-# ✨ Development
 
-```bash
-git clone git@github.com:ibrahimmemonn/Figma_Portfolio.git
+# ✨ Features
+⚡ Fully responsive design (mobile-friendly)
+🎨 Clean and modern UI with Tailwind CSS
+📊 Showcases blockchain/data analytics projects
+🧠 Personal branding and professional summary
+🚀 Fast performance and optimized components
+🔗 Easy navigation and smooth user experience
+🛠️ Tech Stack
+Frontend: React.js
+Styling: Tailwind CSS
+Deployment:  Vercel
 
-cd Figma_Portfolio/
 
-npm i
 
+# 🌐 Live Demo
+
+Add your deployed link here
+Example:
+
+https://angelnath-portfolio.vercel.app/
+
+
+# ⚙️ Installation & Setup
+
+To run this project locally:
+
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+
+# Navigate into the project directory
+cd your-repo-name
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-```
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-# 🚚 Deployment
-
-Every branch or Pull Request is automatically deployed by [Vercel](https://vercel.com/) with their GitHub integration, where the `main` branch is automatically aliased to [figma-portfolio-ten.vercel.app](https://figma-portfolio-ten.vercel.app/). A link to a preview deployment will appear under each Pull Request.
 
 
----
+# 🙌 Acknowledgement
 
-⭐ If you found this project helpful or interesting, please consider giving it a star!
+This project was built by customizing and improving an existing template.
+Special thanks to the original creator, Ibrahim Memon, for providing the base design and inspiration.
+
+
+# 📬 Contact
+
+Adediran Nathaniel
+Blockchain Data Analyst & Researcher
+
+[Substack](https://only1angelnath.substack.com/)
+[Dune](https://dune.com/angelnath)
+[Twitter](https://x.com/_angelnath)
+Email: adedirannath@gmail.com
+
+
+# 💡 Note
+
+This portfolio reflects real-world experience and continuous learning in blockchain analytics, data storytelling, and Web3 ecosystems.
+
+
+# ⭐ Support
+
+If you find this project helpful, feel free to ⭐ the repo and share!
