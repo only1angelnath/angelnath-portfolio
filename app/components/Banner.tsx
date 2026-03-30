@@ -127,8 +127,8 @@ export default function Banner(): React.JSX.Element {
                 A blockchain data analyst and researcher who{" "}
               </p>
               <h1 className="text-3xl tracking-tight lg:text-4xl font-semibold text-white leading-tight">
-                find patterns and tell their
-                <br /> in data{" "}
+                find patterns and tell
+                <br /> data{" "}
                 <span className="relative inline-block">
                   <Image
                     src="/assets/circle.png"

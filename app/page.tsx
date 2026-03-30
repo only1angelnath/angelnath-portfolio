@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Banner from "./components/Banner";
-import Experience from "./components/Experience";
+import Experience from "./components/Skills";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
