@@ -76,7 +76,7 @@ export default function Projects(): React.JSX.Element {
                   {/* Description Card - extends over image */}
                   <div className="relative z-10 mb-6">
                     <div
-                      className={`bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-md rounded-2xl p-6 lg:p-8 border border-white/10 shadow-lg ${
+                      className={`bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-md rounded-2xl p-6 lg:p-8 border border-white/10 hover:bg-slate-950 shadow-lg ${
                         isEven ? "lg:ml-[-20%]" : "lg:w-[calc(100%+20%)]"
                       }`}
                     >
