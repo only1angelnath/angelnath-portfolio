@@ -9,31 +9,22 @@ type ExperienceItem = {
 
 const experiences: ExperienceItem[] = [
   {
-    company: "Freelance",
-    role: "Blockchain Data Analyst",
+    company: "GateLearn",
+    role: "Content Writer & Researcher",
     period: "2023 - Present",
     location: "Remote",
     description:
-      "Analyzed on-chain data across Web3 ecosystems to uncover trends, user behavior, and protocol performance. Built dashboards and translated complex blockchain data into clear insights for research and decision-making.",
-    technologies: ["Dune", "SQL", "On-chain Analytics", "Base"],
+      "I crafted engaging, well-researched content across educational topics, ensuring clarity, accuracy, and value for target audiences. Conducted in-depth research to support content development, transforming complex ideas into easy-to-understand and impactful materials.",
+    technologies: ["Google Docs", "Microsoft Word", "Google Search", "Notion"],
   },
   {
-    company: "Personal Project",
-    role: "Frontend Developer",
+    company: "Arena Games",
+    role: "Content Strategist",
     period: "2024 - Present",
     location: "Remote",
     description:
-      "Built responsive web applications using React, TypeScript, and Tailwind CSS, focusing on clean UI, accessibility, and maintainable component structure.",
-    technologies: ["React", "TypeScript", "Tailwind CSS"],
-  },
-  {
-    company: "Research Project",
-    role: "Data Researcher",
-    period: "2023 - 2024",
-    location: "Remote",
-    description:
-      "Conducted data research and presented findings in a simplified, story-driven format that made technical insights more accessible to different audiences.",
-    technologies: ["Research", "Data Analysis", "Storytelling"],
+      "I developed and executed content strategies to improve brand visibility and audience engagement. Planned, structured, and optimized content aligned with business goals, with a focus on storytelling and consistency across platforms.",
+    technologies: ["Notion", "Trello", "Google Analytics", "Canva"],
   },
 ];
 
@@ -73,11 +64,11 @@ export default function Experience() {
                     </p>
                   </div>
 
-                  <div className="shrink-0">
+                  {/* <div className="shrink-0">
                     <span className="inline-flex rounded-full bg-gray-100 px-3 py-1 text-sm font-medium text-gray-700">
                       {item.period}
                     </span>
-                  </div>
+                  </div> */}
                 </div>
 
                 <p className="mt-4 leading-7 text-gray-600">
