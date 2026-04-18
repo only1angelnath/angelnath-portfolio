@@ -156,11 +156,13 @@ export default function Banner(): React.JSX.Element {
             I&apos;m a {displayedText}
             <span className="animate-pulse">|</span>
           </p>
-          <Link href="#contact">
-          <button className="flex items-center justify-around mt-7 bg-violet-600 hover:bg-violet-400 min-w-30 h-10 rounded-full">
-            Contact Me
-          </button>
-          </Link>
+          <div className="flex items-center max-sm:justify-around">
+            <Link href="#contact">
+              <button className="flex items-center justify-around mt-7 bg-violet-600 hover:bg-violet-400 min-w-30 h-10 rounded-full">
+                Contact Me
+              </button>
+            </Link>
+          </div>
           <p className="text-lg text-white/80 max-w-2xl mt-15 mx-auto lg:mx-0">
             I am a dedicated Blockchain Data analyst and Researcher with a
             Bachelor of Technology Degree in Statistics and over 3 years of
