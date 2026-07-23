@@ -1,21 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaSquareXTwitter, FaLinkedin } from "react-icons/fa6";
 import { SiSubstack } from "react-icons/si";
 import { FaTelegramPlane } from "react-icons/fa";
 
 export default function Footer(): React.JSX.Element {
   return (
-    <footer id="contact" className="py-10  px-6 border-t border-white/10">
+    <footer id="contact" className="py-10 px-6 border-t border-white/10">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-12">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
             Get in Touch
           </h2>
-          <p className="text-md text-white/80 max-w-2xl mx-auto mb-8">
-            I&apos;m currently looking to join a cross-functional team that
-            values improving people&apos;s lives through data, or have a project
-            in mind? Let&apos;s connect.
+          <p className="text-md text-white/80 max-w-2xl mx-auto mb-4">
+            Open to blockchain data analyst roles, research contracts, and on-chain tooling projects.
+            If you need someone who can query the chain, build the pipeline, and explain
+            what it means — reach out.
           </p>
           <a
             href="mailto:adedirannath@gmail.com"
@@ -26,15 +26,24 @@ export default function Footer(): React.JSX.Element {
         </div>
 
         {/* Social Media Icons */}
-        <div className="flex justify-center gap-6 mt-12">
+        <div className="flex justify-center gap-6 mt-12 flex-wrap">
           <Link
             href="https://x.com/_angelnath"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transition-all"
-            aria-label="Twitter"
+            aria-label="Twitter / X"
           >
             <FaSquareXTwitter className="w-5 h-5" />
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/adediran-nathaniel/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transition-all"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin className="w-5 h-5" />
           </Link>
           <Link
             href="https://only1angelnath.substack.com/"
@@ -50,13 +59,13 @@ export default function Footer(): React.JSX.Element {
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transition-all"
-            aria-label="Dune"
+            aria-label="Dune Analytics"
           >
             <Image
               src="/assets/dune-logo.png"
               alt="Dune logo"
-              width={40}
-              height={40}
+              width={20}
+              height={20}
             />
           </Link>
           <Link
@@ -72,8 +81,7 @@ export default function Footer(): React.JSX.Element {
 
         <div className="text-center mt-12 pt-8 border-t border-white/10">
           <p className="text-white/60 text-sm">
-            © {new Date().getFullYear()} Nathaniel Adediran. All rights
-            reserved. Powered by data-driven discovery.
+            © {new Date().getFullYear()} Nathaniel Adediran. All rights reserved. Powered by data-driven discovery.
           </p>
         </div>
       </div>
