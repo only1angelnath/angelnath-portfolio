@@ -21,7 +21,7 @@ const skillCards: SkillCard[] = [
     id: 2,
     title: "Python — Production Tooling",
     description:
-      "Advanced Python applied in production and analysis. I build data pipelines, API backends, and automation tools that run against live on-chain data. Stack includes Web3.py for chain interaction, pandas for analysis, FastAPI for APIs, Celery for task queues, and Docker for deployment.",
+      "Advanced Python applied in production and analysis. I build data pipelines, API backends, and automation tools that run against live on-chain data. Stack includes Web3.py for chain interaction,NumPy for numeric manipulations, pandas for analysis, FastAPI for APIs, Celery for task queues, and Docker for deployment.",
     icon: "/cards/card-2.png",
     tools: ["Python", "Web3.py", "pandas", "FastAPI", "Celery", "Docker", "PostgreSQL", "Redis"],
   },
