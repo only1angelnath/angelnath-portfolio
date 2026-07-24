@@ -48,7 +48,7 @@ const featuredProjects: Project[] = [
     tags: ["SQL", "Dune Analytics", "Base", "Research"],
   },
   {
-    id: 4,
+    id: 5,
     title: "3,549 OGNFT Holders Made $1.2M Profit in ZAMA Community Sale",
     description:
       "How ZAMA early believers averaged 5.3X returns while turning $954K into $1.2M — a data deep-dive into the first community sale in 2026 where everyone won. Every wallet analysed on-chain.",
@@ -57,7 +57,7 @@ const featuredProjects: Project[] = [
     tags: ["SQL", "Dune Analytics", "Wallet Analysis"],
   },
   {
-    id: 5,
+    id: 6,
     title: "Veil Cash Is Profitable — But Can It Scale?",
     description:
       "Veil Cash, a zk-privacy protocol on Base, generated $2,007.8 in revenue from deposit fees, spent just $74.3 on validator gas, and recorded a net profit of $1,993.4 — a 96.3% margin as of October 2025. Full protocol analysis with live Dune dashboard.",
@@ -66,7 +66,7 @@ const featuredProjects: Project[] = [
     tags: ["SQL", "ZK Proofs", "Base", "DeFi"],
   },
   {
-    id: 6,
+    id: 7,
     title: "State of Privacy Tokens on Base — Dune Dashboard",
     description:
       "State of Privacy Tokens on Base Blockchain is a data-driven analytics dashboard that explores the growth, performance, and adoption of privacy-focused protocols within the Base Blockchain ecosystem. The project analyzes key metrics such as market capitalization, transaction volume, and user activity to uncover trends shaping the privacy sector on Base.",
