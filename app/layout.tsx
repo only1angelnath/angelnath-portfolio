@@ -12,28 +12,60 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Adediran Nathaniel - Blockchain data analyst and researcher",
-  description: "I am a dedicated Blockchain Data analyst and Researcher with a Bachelor of Technology Degree in Statistics and over 3 years of experience in Web3.",
+  title: "Nathaniel Adediran — Blockchain Data Analyst & On-Chain Researcher",
+  description:
+    "Blockchain data analyst and Python Developer. I use SQL on Dune Analytics and Python in production to turn raw on-chain data into decisions people can act on — across Ethereum, Base, Solana, and Arbitrum. Creator of PrivaScan and Angelnath On-chain Diary.",
   keywords: [
-    "Adediran Nathaniel",
-    "Blockchain Researcher",
+    "Nathaniel Adediran",
+    "Angelnath",
     "Blockchain Data Analyst",
+    "On-Chain Researcher",
+    "Dune Analytics",
+    "SQL Analytics",
+    "Python Development",
+    "Python Data Analyst"
+    "Web3 Data Analyst",
+    "DeFi Analytics",
+    "On-Chain Analytics",
+    "Ethereum Analytics",
+    "Base Blockchain",
+    "Solana Analytics",
+    "Privacy Protocols",
+    "ZK Proofs",
+    "PrivaScan",
+    "Blockchain Research",
+    "Smart Contract Analytics",
+    "Web3 Research",
+    "Crypto Data Analyst",
   ],
-  authors: [{ name: "Adediran Nathaniel" }],
-  creator: "Adediran Nathaniel",
-  publisher: "Adediran Nathaniel",
+  authors: [{ name: "Nathaniel Adediran" }],
+  creator: "Nathaniel Adediran",
+  publisher: "Nathaniel Adediran",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://dune.com/angelnath",
-    title: "Adediran Nathaniel - Blockchain data analyst and researcher",
-    description: "I am a dedicated Blockchain Data analyst and Researcher with a Bachelor of Technology Degree in Statistics and over 3 years of experience in Web3.",
-    siteName: "Adediran Nathaniel Portfolio",
+    url: "https://angelnath.vercel.app/",
+    title: "Nathaniel Adediran — Blockchain Data Analyst & On-Chain Researcher",
+    description:
+      "Blockchain data analyst and Python Developer. SQL on Dune Analytics, Python in production, research published with verified on-chain data. Creator of PrivaScan.",
+    siteName: "Angelnath — On-chain Diary",
+    images: [
+      {
+        url: "https://angelnath.vercel.app/assets/thumbnail.png",
+        width: 1200,
+        height: 630,
+        alt: "Nathaniel Adediran — Blockchain Data Analyst",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Adediran Nathaniel - Blockchain data analyst and researcher",
-    description: "I am a dedicated Blockchain Data analyst and Researcher with a Bachelor of Technology Degree in Statistics and over 3 years of experience in Web3.",
+    site: "@_angelnath",
+    creator: "@_angelnath",
+    title: "Nathaniel Adediran — Blockchain Data Analyst & On-Chain Researcher",
+    description:
+      "Blockchain data analyst and Python Developer. SQL on Dune Analytics, Python in production, research published with verified on-chain data. Creator of PrivaScan.",
+    images: ["https://angelnath.vercel.app/assets/thumbnail.png"],
   },
   robots: {
     index: true,
@@ -45,6 +77,9 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
+  },
+  alternates: {
+    canonical: "https://angelnath.vercel.app/",
   },
 };
 
@@ -61,9 +96,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="canonical" href="https://dune.com/angelnath" />
-      </head>
       <body
         className={`${poppins.variable} font-sans antialiased`}
       >
