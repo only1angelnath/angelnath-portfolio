@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "Dune Analytics",
     "SQL Analytics",
     "Python Development",
-    "Python Data Analyst"
+    "Python Data Analyst",
     "Web3 Data Analyst",
     "DeFi Analytics",
     "On-Chain Analytics",
