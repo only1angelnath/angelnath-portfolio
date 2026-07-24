@@ -31,6 +31,15 @@ const featuredProjects: Project[] = [
   },
   {
     id: 3,
+    title: "PRXVT Protocol Analytics — Live Dune Dashboard",
+    description:
+      "PRXVT by Virtuals is a privacy-centric infrastructure layer on Base built for the autonomous AI agent economy. It combines ZK cryptography with ERC-4337 account abstraction to solve the transparency leak inherent in public blockchains — giving AI agents the ability to transact anonymously without linking on-chain behaviour to their identity. This Dune dashboard tracks the full PRXVT protocol: transaction volume, agent activity, privacy pool usage, and ecosystem growth. Built to surface what's actually happening inside a protocol that's deliberately designed to be hard to see.",
+    link: "https://dune.com/angelnath/prxvt-protocol-analytics",
+    image: "/projects/prxvt.png",
+    tags: ["SQL", "Dune Analytics", "ZK Proofs", "Base", "AI Agents", "ERC-4337"],
+  },
+  {
+    id: 4,
     title: "State of Privacy Protocol Tokens Research Report",
     description:
       "Detailed research report on privacy tokens on Base — holder analytics, volume trends, wealth metrics, and segmentation models demonstrating how they achieved 249.6% returns in 2025, outperforming AI tokens. Full on-chain data sourced from Dune Analytics with live dashboard.",
@@ -63,7 +72,7 @@ const featuredProjects: Project[] = [
       "State of Privacy Tokens on Base Blockchain is a data-driven analytics dashboard that explores the growth, performance, and adoption of privacy-focused protocols within the Base Blockchain ecosystem. The project analyzes key metrics such as market capitalization, transaction volume, and user activity to uncover trends shaping the privacy sector on Base.",
     link: "https://dune.com/angelnath/state-of-privacy-token-on-base-blockchain",
     image: "/projects/base.png",
-    tags: ["SQL", "Dune Analytics", "Base", "Dashboard", "Research"],
+    tags: ["SQL", "Dune Analytics", "Base", "Dashboard"],
   },
 ];
 
