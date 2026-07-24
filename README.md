@@ -1,83 +1,69 @@
-# 🚀 Blockchain Data Analyst Portfolio
+# Angelnath — Portfolio
 
-[![Site preview](/public/assets/thumbnail.png)](https://angelnath-portfolio.vercel.app/)
+Personal portfolio of **Nathaniel Adediran** (@_angelnath) — blockchain data analyst, on-chain researcher, and Python builder.
 
+Live: [angelnath.vercel.app](https://angelnath.vercel.app)
 
-A modern, responsive portfolio built with React and Tailwind CSS, showcasing my work, skills, and experience as a Blockchain Data Analyst and Researcher.
+---
 
-This project is an improved and customized version of an existing template, enhanced with better structure, content, and personal branding.
+## About
 
+The blockchain tells the truth. I pull the data and explain what it actually means.
 
-# 👤 About Me
+I use SQL on Dune Analytics and Python in production to turn raw on-chain data into decisions people can act on — across Ethereum, Base, Solana, and Arbitrum. This portfolio covers my published research, open-source builds, Dune dashboards, and professional background.
 
-I am Adediran Nathaniel, a dedicated Blockchain Data Analyst and Researcher with a Bachelor of Technology degree in Statistics and over 3 years of experience in Web3.
+---
 
-I specialize in uncovering actionable insights from on-chain data to drive innovation and strategic decision-making. By combining analytical thinking with creative storytelling, I transform complex blockchain data into clear, impactful narratives that empower teams to navigate decentralized ecosystems with precision and foresight.
+## Featured Work
 
-I thrive in collaborative environments where data-driven research unlocks new opportunities and turns challenges into breakthroughs.
+**PrivaScan** — Open-source, deterministic risk scoring API for EVM privacy protocol ecosystems. Built with FastAPI, Celery, Redis, Docker, and PostgreSQL. 14 pre-seeded protocols, 7-chain support, live Telegram bot (@PrivaScanBot).
+→ [privascan-cdr.vercel.app](https://privascan-cdr.vercel.app/)
 
+**KeyHeir** — Dead man's switch vault protocol on Monad. Permissionless, custodian-free, controlled by no one but the code. Built for the BuildAnything Monad Spark Hackathon.
+→ [keyheir.vercel.app](https://keyheir.vercel.app/)
 
-# ✨ Features
-⚡ Fully responsive design (mobile-friendly)
-🎨 Clean and modern UI with Tailwind CSS
-📊 Showcases blockchain/data analytics projects
-🧠 Personal branding and professional summary
-🚀 Fast performance and optimized components
-🔗 Easy navigation and smooth user experience
-🛠️ Tech Stack
-Frontend: React.js
-Styling: Tailwind CSS
-Deployment:  Vercel
+**PRXVT Protocol Analytics** — Live Dune dashboard tracking a ZK + ERC-4337 privacy infrastructure layer on Base built for the AI agent economy.
+→ [dune.com/angelnath/prxvt-protocol-analytics](https://dune.com/angelnath/prxvt-protocol-analytics)
 
+**Angelnath On-chain Diary** — Published research on Substack covering DeFi, privacy protocols, wallet behaviour, and ecosystem trends — all backed by live on-chain data.
+→ [only1angelnath.substack.com](https://only1angelnath.substack.com)
 
+---
 
-# 🌐 Live Demo
+## Tech Stack
 
-Add your deployed link here
-Example:
+**Portfolio:** Next.js 16 · React 19 · TypeScript · Tailwind CSS · Vercel
 
-https://angelnath-portfolio.vercel.app/
+**Data & Analytics:** SQL · Dune Analytics · Python · pandas · Web3.py
 
+**Backend & Infra:** FastAPI · Celery · Redis · Docker · PostgreSQL · Railway
 
-# ⚙️ Installation & Setup
+**Chains:** Ethereum · Base · Solana · Arbitrum · Monad
 
-To run this project locally:
+---
 
-# Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+## Links
 
-# Navigate into the project directory
-cd your-repo-name
+- Portfolio: [angelnath.vercel.app](https://angelnath.vercel.app)
+- Twitter/X: [@_angelnath](https://x.com/_angelnath)
+- LinkedIn: [adediran-nathaniel](https://www.linkedin.com/in/adediran-nathaniel/)
+- Substack: [only1angelnath.substack.com](https://only1angelnath.substack.com)
+- Dune: [dune.com/angelnath](https://dune.com/angelnath)
+- GitHub: [github.com/only1angelnath](https://github.com/only1angelnath/)
 
-# Install dependencies
+---
+
+## Running Locally
+
+```bash
+git clone https://github.com/only1angelnath/angelnath-portfolio.git
+cd angelnath-portfolio
 npm install
-
-# Start the development server
 npm run dev
+```
 
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-# 🙌 Acknowledgement
+---
 
-This project was built by customizing and improving an existing template.
-Special thanks to the original creator, Ibrahim Memon, for providing the base design and inspiration.
-
-
-# 📬 Contact
-
-Adediran Nathaniel
-Blockchain Data Analyst & Researcher
-
-[Substack](https://only1angelnath.substack.com/)
-[Dune](https://dune.com/angelnath)
-[Twitter](https://x.com/_angelnath)
-Email: adedirannath@gmail.com
-
-
-# 💡 Note
-
-This portfolio reflects real-world experience and continuous learning in blockchain analytics, data storytelling, and Web3 ecosystems.
-
-
-# ⭐ Support
-
-If you find this project helpful, feel free to ⭐ the repo and share!
+© 2025 Nathaniel Adediran
