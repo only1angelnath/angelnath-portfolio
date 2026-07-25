@@ -27,7 +27,7 @@ const experiences: ExperienceItem[] = [
   {
     company: "Intellisage",
     role: "Research Analyst Intern",
-    period: "2024 - 2025",
+    period: "Jan 2026 - Jun 2026",
     location: "Remote",
     tag: "work",
     description:
