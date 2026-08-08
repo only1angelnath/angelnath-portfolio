@@ -73,8 +73,8 @@ export default function Skill(): React.JSX.Element {
                 <Image
                   src={card.icon}
                   alt={card.title}
-                  width={160}
-                  height={160}
+                  width={50}
+                  height={50}
                   className="object-contain"
                 />
               </div>
